@@ -4,8 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "557c700fb9eaff46a6235d1dd0341fe8",
+    "content-hash": "82640c619ae7b4541261ca0c22ccad98",
     "packages": [
+        {
+            "name": "nlf/kernel-core",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/n0rthern-light/nlf-component-kernel-core.git",
+                "reference": "223f78ebbc37333b1672db5d80ae8b42e510c4fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/n0rthern-light/nlf-component-kernel-core/zipball/223f78ebbc37333b1672db5d80ae8b42e510c4fe",
+                "reference": "223f78ebbc37333b1672db5d80ae8b42e510c4fe",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/config": "^6.0",
+                "symfony/dependency-injection": "^6.0",
+                "symfony/dotenv": "^6.0",
+                "symfony/yaml": "^6.0"
+            },
+            "type": "metapackage",
+            "autoload": {
+                "psr-4": {
+                    "Nlf\\Component\\Kernel\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A metapackage containing core Symfony components among all types of kernel implementation",
+            "support": {
+                "source": "https://github.com/n0rthern-light/nlf-component-kernel-core/tree/0.1.0",
+                "issues": "https://github.com/n0rthern-light/nlf-component-kernel-core/issues"
+            },
+            "time": "2022-04-09T18:08:35+00:00"
+        },
         {
             "name": "nlf/kernel-interface",
             "version": "0.1.1",
