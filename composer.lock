@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa8f7113abb90f1f213b75672f588d0e",
+    "content-hash": "cf1081a65af24e682a30440da6d428f8",
     "packages": [
         {
             "name": "nlf/kernel-core",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/n0rthern-light/nlf-component-kernel-core.git",
-                "reference": "e9f0d1209d273f330ed04ac354283af0995125cb"
+                "reference": "832f4f3aa2f5b0463d7db221119a6fbe18054d41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/n0rthern-light/nlf-component-kernel-core/zipball/e9f0d1209d273f330ed04ac354283af0995125cb",
-                "reference": "e9f0d1209d273f330ed04ac354283af0995125cb",
+                "url": "https://api.github.com/repos/n0rthern-light/nlf-component-kernel-core/zipball/832f4f3aa2f5b0463d7db221119a6fbe18054d41",
+                "reference": "832f4f3aa2f5b0463d7db221119a6fbe18054d41",
                 "shasum": ""
             },
             "require": {
@@ -25,9 +25,6 @@
                 "symfony/dependency-injection": "^6.0",
                 "symfony/dotenv": "^6.0",
                 "symfony/yaml": "^6.0"
-            },
-            "require-dev": {
-                "symfony/var-dumper": "^6.0"
             },
             "type": "metapackage",
             "autoload": {
@@ -40,10 +37,10 @@
             ],
             "description": "A metapackage containing core Symfony components among all types of kernel implementation",
             "support": {
-                "source": "https://github.com/n0rthern-light/nlf-component-kernel-core/tree/0.2.0",
+                "source": "https://github.com/n0rthern-light/nlf-component-kernel-core/tree/0.2.1",
                 "issues": "https://github.com/n0rthern-light/nlf-component-kernel-core/issues"
             },
-            "time": "2022-04-15T22:36:57+00:00"
+            "time": "2022-04-15T22:47:45+00:00"
         },
         {
             "name": "nlf/kernel-interface",
